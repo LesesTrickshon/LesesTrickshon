@@ -1,0 +1,134 @@
+body{
+      margin:0;
+      padding:0;
+      color: black;
+      font-family: helvetica;
+      background: url(https://cdn.pixabay.com/photo/2020/03/21/19/27/sea-4955005_1280.jpg);
+      background-repeat: no-repeat;
+      background-size:contain;
+      background-size: cover;
+}
+*{
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: #333333;
+  color: white;
+  font-family: helvetica;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+.navbar-links ul{
+  margin:0;
+  padding:0;
+  display: flex;
+  background-color: #444444;
+  border-radius: 100px;
+  border-style: double;
+}
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 2rem;
+  display: block;
+}
+.navbar-links li:hover{
+background-color: #555555;
+border-radius: 100px;
+border-style: dotted;
+}
+/*plan:hover{
+  background-color: #0077ff;
+}
+gal:hover{
+background-color: #7700ff;
+}
+wa:hover{
+  background-color: rgb(127, 236, 83);
+}*/
+
+.brand-title{
+  font-size: 30px;
+  padding: 1rem;
+}
+.text{
+  position:relative;
+  top:100rem;
+}
+/* Everything after the Nav bar */
+.plans{
+  padding: 1rem;
+  margin: 1rem;
+  list-style-type: circle;
+}
+
+.CatCafe{
+  background-color: #00aeff;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 2.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+.Party2{
+  background-color: #cc00ff;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 2.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+  position: relative;
+  left: 17rem;
+  top: -15rem;
+}
+
+/* Galerie kommt hierhin */
+.galerie{
+  background-color: #222222;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: #ffffff;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+.musik{
+  padding: 1rem;
+  margin: 5rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+  height: 15rem;
+}
+.musik ul{
+  position: relative;
+  top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.musik ul li{
+  list-style: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.musik ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.musik li a:hover{
+  background-color:#e2e1e1;
+  border-radius: 5rem;
+  border-style: dotted;
+}
